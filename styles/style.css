@@ -1,0 +1,25 @@
+/* root files */
+:root {
+    --h1-color: #562EFF;
+    --h1-font-size: 26px;
+}
+
+/* top players style */
+h1{
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+/* top blog style  */
